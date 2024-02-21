@@ -9,9 +9,7 @@ function Navbar() {
   return (
     <nav>
       <div className='align-element py-4 flex flex-col gap-2 sm:flex-row sm:gap-x-16 sm:justify-between sm:items-center sm:py-8'>
-        <h2 className='text-3xl font-bold text-gray-600 cursor-pointer'>
-          johnsarmiento.
-        </h2>
+        <h2 className='text-3xl font-bold text-gray-600'>johnsarmiento.</h2>
         <div className='flex gap-x-3'>
           {links.map((link) => {
             const { id, href, text } = link;

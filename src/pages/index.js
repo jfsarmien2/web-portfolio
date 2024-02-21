@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Hr from "../components/Hr";
 import Skill from "../components/Skill";
+import Education from "../components/Education";
+import Experience from "../components/Experience";
 const IndexPage = () => {
   return (
     <>
@@ -11,6 +13,9 @@ const IndexPage = () => {
       <Hr />
       <Skill />
       <Hr />
+      <Experience />
+      <Hr />
+      <Education />
     </>
   );
 };
